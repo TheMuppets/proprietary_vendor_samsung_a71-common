@@ -35,7 +35,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a71-common/proprietary/vendor/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc \
     vendor/samsung/a71-common/proprietary/vendor/etc/init/vendor.qti.rmt_storage.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.rmt_storage.rc \
     vendor/samsung/a71-common/proprietary/vendor/etc/init/vendor.qti.tftp.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.tftp.rc \
-    vendor/samsung/a71-common/proprietary/vendor/etc/init/vendor.samsung.hardware.thermal@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.thermal@1.0-service.rc \
     vendor/samsung/a71-common/proprietary/vendor/etc/init/vppservice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vppservice.rc \
     vendor/samsung/a71-common/proprietary/vendor/etc/izat.conf:$(TARGET_COPY_OUT_VENDOR)/etc/izat.conf \
     vendor/samsung/a71-common/proprietary/vendor/etc/lm/AdaptLaunchFeature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/lm/AdaptLaunchFeature.xml \
@@ -409,7 +408,6 @@ PRODUCT_PACKAGES += \
     vendor.samsung.hardware.radio.bridge@2.0 \
     vendor.samsung.hardware.radio.bridge@2.1 \
     vendor.samsung.hardware.radio.channel@2.0 \
-    vendor.samsung.hardware.thermal@1.0 \
     vendor_lib_rfsa_adsp_capi_v2_aptX_CLHDAD_Encoder_so \
     vendor_lib_rfsa_adsp_libVC1Dec_so \
     vendor_lib_rfsa_adsp_libVC1DecDsp_skel_so \
@@ -451,7 +449,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.capabilityconfigstore@1.0-service \
     vendor.qti.hardware.qseecom@1.0-service \
     vendor.qti.hardware.tui_comm@1.0-service-qti \
-    vendor.samsung.hardware.thermal@1.0-service \
     irsc_util \
     loc_launcher \
     lowi-server \
